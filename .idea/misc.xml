@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/drawable/border.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/drawable/grey.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/drawable/ic_portfolio_svgrepo_com.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/drawable/loginradius.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/drawable/nothing.xml" value="0.2712820512820513" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_login.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_main.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_recycler_item_view.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_splash.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/drop_down_item.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/fragment_add_stock.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/fragment_list_portfolio.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/fragment_loginfragment.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/fragment_register.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/fragment_registerfragment.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/fragment_stock_list.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/layout/recyclerrow.xml" value="0.259375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/MainActivity/app/src/main/res/menu/bottom_navi.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

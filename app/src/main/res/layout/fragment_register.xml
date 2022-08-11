@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".startingactivities.RegisterFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="30dp">
+
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:hint="UserName"
+                app:layout_constraintWidth_percent="0.8"
+                app:layout_constraintVertical_bias="0.14"
+                android:background="@drawable/border"
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/email_icon"
+                android:drawablePadding="15dp"
+                android:paddingStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+
+                />
+
+            <EditText
+                android:id="@+id/register_email"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                app:layout_constraintTop_toBottomOf="@+id/username"
+                android:hint="Email"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintWidth_percent="0.8"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/lock"
+                android:drawablePadding="15dp"
+                android:paddingStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                />
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                app:layout_constraintTop_toBottomOf="@+id/register_email"
+                android:hint="@string/password"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintWidth_percent="0.8"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/lock"
+                android:drawablePadding="15dp"
+                android:paddingStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <EditText
+                android:id="@+id/confirm_password"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                app:layout_constraintTop_toBottomOf="@+id/register_password"
+                android:hint="Confirm Password"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintWidth_percent="0.8"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/border"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/lock"
+                android:drawablePadding="15dp"
+                android:paddingStart="10dp"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/registerButton"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                app:layout_constraintTop_toBottomOf="@+id/confirm_password"
+                app:layout_constraintWidth_percent="0.8"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="20dp"
+                app:cornerRadius="20dp"
+                android:backgroundTint="#1CEBAD"
+                android:text="Sign Up"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

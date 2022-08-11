@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">email</string>
+    <string name="password">Password</string>
+    <string name="forgotpassword">ForgotPassword</string>
+    <string name="login">Login</string>
+    <string name="user_name">User Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">name</string>
+    <string name="seccondstring">seccondString</string>
+    <string name="thirdstring">thirdString</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="my_portfolio">My Portfolio</string>
+    <string name="status">Status</string>
+
+    <string name="total_profit">Total Profit</string>
+    <string name="total_investment">Total Investment</string>
+    <string name="total_sold_value">Total Sold Value</string>
+    <string name="current_value">Current Value</string>
+    <string name="overall_profit">Overall Profit:</string>
+    <string name="_0000">0000</string>
+    <string name="total_unit">Total Unit</string>
+    <string name="stock_name">Stock Name</string>
+    <string name="date">Date</string>
+    <string name="transaction_type">Transaction Type</string>
+    <string name="choose_transaction">Choose Transaction</string>
+    <string name="quantity">Quantity</string>
+    <string name="my_stocks_order">My Stocks Order</string>
+    <string name="buyorsell">buyOrsell</string>
+
+
+    <string-array name="transactionType">
+        <item>Buy</item>
+        <item>Sell</item>
+    </string-array>
+
+
+</resources>
